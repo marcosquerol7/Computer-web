@@ -1,0 +1,83 @@
+/* CSS HEX
+--madder-lake: #c93d3dff;
+--honeydew: #ddf8e8ff;
+--light-gray: #cdd5d1ff;
+--black-shadows: #b4a6abff;
+--black-coffee: #3c3744ff;
+ */
+
+/*TIPOGRAFÍA: Opensans */
+
+/* GENERALES */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* LANDING */ /*En esa url, .. es subir un nivel de la carpeta, como estabas en el archivo main, sales a la carpeta anterior, y ya te metes donde tengas guardada la imagen */
+
+.landing {
+    color: white;
+    background-image: url("../img_act3/ordenador.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+.linea-separadora {
+    border: 0;
+    border-top: 3px solid #c93d3dff;
+    width: 3rem;
+}
+
+.texto {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 0.9rem;
+}
+
+.boton {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background-color:#c93d3dff;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    border-radius: 3rem;
+}
+
+/* INFO */
+
+.info {
+    text-align: center;
+    background-color: #c93d3dff;
+    color: white;
+    padding: 3rem 0;
+}
+
+.info .titulo {
+    text-transform: none;
+    font-size: 2rem;
+}
+
+.info .linea-separadora {
+    border-color: white;
+}
+
+.info .boton {
+    background-color: white;
+    color: black;
+}
